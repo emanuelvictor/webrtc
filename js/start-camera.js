@@ -14,7 +14,8 @@ startCameraButton.addEventListener('click', async () => {
 });
 
 function handleSuccess() {
-  recordButton.disabled = false;
+  stopCameraButton.disabled = false;
+  startRecordingButton.disabled = false;
   console.log('getUserMedia() got stream:', stream);
 
   gumVideo.srcObject = stream;

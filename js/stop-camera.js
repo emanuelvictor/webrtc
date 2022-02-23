@@ -3,7 +3,7 @@ stopCameraButton.addEventListener('click', async () => {
 
   stopCameraButton.disabled = true;
   startCameraButton.disabled = false;
-  recordButton.disabled = true;
+  startRecordingButton.disabled = true;
   gumVideo.srcObject = null;
 });
 
